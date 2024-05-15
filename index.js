@@ -37,11 +37,7 @@ async function run() {
       res.send(result);
     });
 
-    // app.post( {
-    //   
-    //   
-    //   res.
-    // });
+    
 
     app.post('/add', async (req, res) => {
       const addData = req.body;
